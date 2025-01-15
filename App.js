@@ -26,7 +26,7 @@ export default function App() {
       keyboardType='decimal-pad'/>
       <Text style={styles.field}>Limits</Text>
       <Text style={styles.field}>{lowLimit}{"-"}{highLimit}</Text>
-      <Button styles={styles.button} title="Calculate" onPress={calculate}/>
+      <Button title="Calculate" onPress={calculate}/>
     </View>
   );
 }
